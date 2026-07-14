@@ -1054,6 +1054,17 @@
   color: #f87171;
 }
 
+.form-success {
+  margin-bottom: var(--space-4);
+  font-size: var(--font-size-sm);
+  color: #4ade80;
+}
+
+.btn[aria-busy="true"] {
+  opacity: 0.7;
+  cursor: wait;
+}
+
 /* FAQ */
 
 .faq-list {

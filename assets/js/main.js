@@ -3,6 +3,7 @@
  */
 
 import LanguageManager from "./language.js";
+import { WEB3FORMS_ACCESS_KEY } from "./site-config.js";
 
 const PARTIAL_BASE = "assets/partials/";
 const ASSET_VERSION = "20260714-2";
@@ -246,6 +247,7 @@ const ScrollReveal = (() => {
 })();
 
 const ContactForm = (() => {
+  const WEB3FORMS_URL = "https://api.web3forms.com/submit";
   const SUBMIT_COOLDOWN_MS = 60_000;
   const FIELD_LIMITS = {
     name: 100,
@@ -266,19 +268,46 @@ const ContactForm = (() => {
     return Date.now() - lastSubmit < SUBMIT_COOLDOWN_MS;
   }
 
+  function setFormStatus(elements, type) {
+    elements.errorEl.hidden = type !== "validation";
+    elements.serverErrorEl.hidden = type !== "server";
+    elements.successEl.hidden = type !== "success";
+    elements.rateLimitEl.hidden = type !== "rate-limit";
+  }
+
+  function setSubmitting(submitBtn, isSubmitting) {
+    submitBtn.disabled = isSubmitting;
+    submitBtn.setAttribute("aria-busy", String(isSubmitting));
+  }
+
   function init() {
     const form = document.getElementById("contact-form");
     if (!form) return;
 
-    form.addEventListener("submit", (event) => {
-      event.preventDefault();
+    const submitBtn = form.querySelector("#contact-submit");
+    const errorEl = document.getElementById("contact-error");
+    const serverErrorEl = document.getElementById("contact-server-error");
+    const successEl = document.getElementById("contact-success");
+    const rateLimitEl = document.getElementById("contact-rate-limit");
+    const statusElements = { errorEl, serverErrorEl, successEl, rateLimitEl };
 
-      const honeypot = form.querySelector("#contact-website");
-      if (honeypot?.value.trim()) {
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      setFormStatus(statusElements, null);
+
+      const botcheck = form.querySelector("#contact-botcheck");
+      if (botcheck?.checked) {
         return;
       }
 
       if (isRateLimited()) {
+        setFormStatus(statusElements, "rate-limit");
+        return;
+      }
+
+      if (WEB3FORMS_ACCESS_KEY === "YOUR_WEB3FORMS_ACCESS_KEY") {
+        console.error("[ContactForm] Web3Forms access key is not configured.");
+        setFormStatus(statusElements, "server");
         return;
       }
 
@@ -286,7 +315,6 @@ const ContactForm = (() => {
       const email = form.querySelector("#contact-email");
       const company = form.querySelector("#contact-company");
       const message = form.querySelector("#contact-message");
-      const errorEl = document.getElementById("contact-error");
 
       const safeName = sanitizeField(name.value, FIELD_LIMITS.name);
       const safeEmail = sanitizeField(email.value, FIELD_LIMITS.email);
@@ -300,19 +328,47 @@ const ContactForm = (() => {
         safeMessage;
 
       if (!isValid) {
-        errorEl.hidden = false;
+        setFormStatus(statusElements, "validation");
         return;
       }
 
-      errorEl.hidden = true;
-      sessionStorage.setItem("korwaq-form-ts", String(Date.now()));
+      setSubmitting(submitBtn, true);
 
-      const subject = encodeURIComponent(`KORWAQ Contact — ${safeName}`);
-      const body = encodeURIComponent(
-        `Name: ${safeName}\nEmail: ${safeEmail}\nCompany: ${safeCompany || "—"}\n\n${safeMessage}`
-      );
+      try {
+        const response = await fetch(WEB3FORMS_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            access_key: WEB3FORMS_ACCESS_KEY,
+            name: safeName,
+            email: safeEmail,
+            company: safeCompany || "—",
+            message: safeMessage,
+            subject: `KORWAQ Contact — ${safeName}`,
+            from_name: "KORWAQ Website",
+          }),
+        });
 
-      window.location.href = `mailto:info@korwaq.com?subject=${subject}&body=${body}`;
+        const result = await response.json();
+
+        if (response.ok && result.success) {
+          sessionStorage.setItem("korwaq-form-ts", String(Date.now()));
+          form.reset();
+          setFormStatus(statusElements, "success");
+          return;
+        }
+
+        console.error("[ContactForm]", result);
+        setFormStatus(statusElements, "server");
+      } catch (error) {
+        console.error("[ContactForm]", error);
+        setFormStatus(statusElements, "server");
+      } finally {
+        setSubmitting(submitBtn, false);
+      }
     });
   }
 

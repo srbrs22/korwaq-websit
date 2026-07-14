@@ -28,10 +28,7 @@
     <div class="contact-form-wrapper" data-reveal>
       <h2 class="content-block__title" data-i18n="contact_page.form_title">Mesaj Gönderin</h2>
       <form class="contact-form" id="contact-form" novalidate>
-        <div class="form-honeypot" aria-hidden="true">
-          <label for="contact-website">Website</label>
-          <input type="text" id="contact-website" name="website" tabindex="-1" autocomplete="off">
-        </div>
+        <input type="checkbox" id="contact-botcheck" name="botcheck" class="form-honeypot" tabindex="-1" autocomplete="off">
         <div class="form-group">
           <label for="contact-name" class="form-label" data-i18n="contact_page.form_name">Ad Soyad</label>
           <input type="text" id="contact-name" name="name" class="form-input" required maxlength="100" autocomplete="name" data-i18n-attr="placeholder:contact_page.form_name_placeholder">
@@ -49,7 +46,10 @@
           <textarea id="contact-message" name="message" class="form-input form-textarea" rows="5" required maxlength="2000" data-i18n-attr="placeholder:contact_page.form_message_placeholder"></textarea>
         </div>
         <p class="form-error" id="contact-error" role="alert" hidden data-i18n="contact_page.form_error">Lütfen tüm zorunlu alanları doldurun.</p>
-        <button type="submit" class="btn btn--primary" data-i18n="contact_page.form_submit">Gönder</button>
+        <p class="form-error" id="contact-server-error" role="alert" hidden data-i18n="contact_page.form_failed">Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin veya info@korwaq.com adresine yazın.</p>
+        <p class="form-error" id="contact-rate-limit" role="alert" hidden data-i18n="contact_page.form_rate_limit">Çok sık gönderim yaptınız. Lütfen bir dakika bekleyin.</p>
+        <p class="form-success" id="contact-success" role="status" hidden data-i18n="contact_page.form_success">Mesajınız gönderildi. En kısa sürede size dönüş yapacağız.</p>
+        <button type="submit" class="btn btn--primary" id="contact-submit" data-i18n="contact_page.form_submit">Gönder</button>
       </form>
     </div>
   </div>
