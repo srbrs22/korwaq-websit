@@ -1,0 +1,98 @@
+<header class="site-header" role="banner">
+  <div class="container site-header__inner">
+    <a href="index.html" class="site-header__logo" aria-label="KORWAQ">
+      <img src="assets/icons/Klogo-web.png?v=20260714-2" class="site-header__logo-mark" width="40" height="40" alt="" aria-hidden="true">
+      <span>KORWAQ</span>
+    </a>
+
+    <nav class="site-header__nav" aria-label="Main navigation" data-i18n-attr="aria-label:a11y.main_nav">
+      <ul class="site-header__menu" role="list">
+        <li>
+          <a href="index.html" class="site-header__link" data-nav="home" data-i18n="nav.home">Ana Sayfa</a>
+        </li>
+        <li>
+          <a href="solutions.html" class="site-header__link" data-nav="solutions" data-i18n="nav.solutions">Çözümler</a>
+        </li>
+        <li>
+          <a href="about.html" class="site-header__link" data-nav="about" data-i18n="nav.about">Hakkımızda</a>
+        </li>
+        <li>
+          <a href="blog.html" class="site-header__link" data-nav="blog" data-i18n="nav.blog">Blog</a>
+        </li>
+        <li>
+          <a href="careers.html" class="site-header__link" data-nav="careers" data-i18n="nav.careers">Kariyer</a>
+        </li>
+        <li>
+          <a href="contact.html" class="site-header__link site-header__link--contact" data-nav="contact" data-i18n="nav.contact">İletişim</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="site-header__actions">
+      <div class="lang-switcher" role="group" aria-label="Language" data-i18n-attr="aria-label:lang.switch">
+        <button type="button" class="lang-switcher__btn is-active" data-lang="tr" aria-pressed="true">TR</button>
+        <button type="button" class="lang-switcher__btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+
+      <a href="contact.html" class="btn btn--primary btn--sm site-header__cta" data-i18n="nav.contact">İletişim</a>
+
+      <button
+        type="button"
+        class="site-header__toggle"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+        data-i18n-attr="aria-label:a11y.menu_toggle"
+        aria-label="Menüyü aç"
+      >
+        <span class="site-header__toggle-icon" aria-hidden="true">
+          <span class="site-header__toggle-bar"></span>
+          <span class="site-header__toggle-bar"></span>
+          <span class="site-header__toggle-bar"></span>
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <div class="site-header__overlay" aria-hidden="true"></div>
+
+  <nav
+    id="mobile-nav"
+    class="site-header__mobile-nav"
+    aria-label="Mobile navigation"
+    data-i18n-attr="aria-label:a11y.main_nav"
+    aria-hidden="true"
+  >
+    <ul class="site-header__mobile-menu" role="list">
+      <li>
+        <a href="index.html" class="site-header__mobile-link" data-nav="home" data-i18n="nav.home">Ana Sayfa</a>
+      </li>
+      <li>
+        <a href="solutions.html" class="site-header__mobile-link" data-nav="solutions" data-i18n="nav.solutions">Çözümler</a>
+      </li>
+      <li>
+        <a href="about.html" class="site-header__mobile-link" data-nav="about" data-i18n="nav.about">Hakkımızda</a>
+      </li>
+      <li>
+        <a href="blog.html" class="site-header__mobile-link" data-nav="blog" data-i18n="nav.blog">Blog</a>
+      </li>
+      <li>
+        <a href="careers.html" class="site-header__mobile-link" data-nav="careers" data-i18n="nav.careers">Kariyer</a>
+      </li>
+      <li>
+        <a href="contact.html" class="site-header__mobile-link" data-nav="contact" data-i18n="nav.contact">İletişim</a>
+      </li>
+    </ul>
+
+    <div class="site-header__mobile-footer">
+      <a href="contact.html" class="btn btn--primary site-header__mobile-cta" data-i18n="nav.contact">İletişim</a>
+
+      <div class="site-header__mobile-lang">
+        <span class="site-header__mobile-lang-label" data-i18n="lang.switch">Dil</span>
+        <div class="lang-switcher" role="group" aria-label="Language" data-i18n-attr="aria-label:lang.switch">
+          <button type="button" class="lang-switcher__btn is-active" data-lang="tr" aria-pressed="true">TR</button>
+          <button type="button" class="lang-switcher__btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

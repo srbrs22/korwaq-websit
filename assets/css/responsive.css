@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Responsive — Mobile First Breakpoints
+   ========================================================================== */
+
+/* Tablet */
+@media (min-width: 48rem) {
+  :root {
+    --container-padding: var(--space-6);
+  }
+
+  .hero {
+    padding-block: var(--space-16) var(--space-20);
+  }
+
+  .hero__title {
+    font-size: var(--font-size-4xl);
+  }
+}
+
+/* Desktop */
+@media (min-width: 64rem) {
+  :root {
+    --header-height: 4.5rem;
+  }
+
+  .site-header__nav {
+    display: block;
+  }
+
+  .site-header__toggle {
+    display: none;
+  }
+
+  .site-header__cta {
+    display: inline-flex;
+  }
+
+  .site-header__link--contact {
+    display: none;
+  }
+
+  .site-header__overlay,
+  .site-header__mobile-nav {
+    display: none;
+  }
+
+  .hero__inner {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-12);
+  }
+
+  .hero__title {
+    font-size: var(--font-size-5xl);
+  }
+
+  .hero__visual {
+    display: block;
+  }
+
+  .section-header__title {
+    font-size: var(--font-size-3xl);
+  }
+
+  .why__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
+}
+
+@media (min-width: 75rem) {
+  .why__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
+
+  .updates-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+  }
+
+  .about-preview__inner {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .split-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--space-12);
+  }
+
+  .careers-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .site-footer__inner {
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: start;
+  }
+
+  .page-hero__title {
+    font-size: var(--font-size-4xl);
+  }
+}

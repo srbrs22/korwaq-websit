@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "lang": "en",
+    "site_name": "KORWAQ",
+    "tagline": "Enterprise Software for Modern Manufacturing"
+  },
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "lang": {
+    "switch": "Language",
+    "tr": "Türkçe",
+    "en": "English"
+  },
+  "a11y": {
+    "skip_to_content": "Skip to content",
+    "menu_toggle": "Open menu",
+    "menu_close": "Close menu",
+    "main_nav": "Main navigation"
+  },
+  "hero": {
+    "badge": "Enterprise Software for Modern Manufacturing",
+    "title_line1": "Enterprise Software",
+    "title_line2": "Built for Modern Manufacturing",
+    "subtitle": "KORWAQ develops next-generation solution partner and enterprise software that helps manufacturers streamline operations, improve productivity and grow with confidence.",
+    "cta_primary": "Explore Solutions",
+    "cta_secondary": "Contact Us"
+  },
+  "why": {
+    "title": "Why KORWAQ",
+    "subtitle": "We build enterprise software with a clear focus on manufacturing — simple, scalable and designed for the long term.",
+    "architecture": {
+      "title": "Modern Architecture",
+      "text": "A modular, future-ready architecture built for long-term growth and evolving business needs."
+    },
+    "manufacturing": {
+      "title": "Manufacturing Focus",
+      "text": "Software designed specifically for production planning, inventory management and operational workflows."
+    },
+    "security": {
+      "title": "Enterprise Security",
+      "text": "Security principles integrated into every layer, from access control to data protection."
+    },
+    "cloud": {
+      "title": "Cloud Ready",
+      "text": "Designed to run on cloud infrastructure with the flexibility your operations require."
+    },
+    "scalable": {
+      "title": "Scalable",
+      "text": "Grows with your business — from small factories to multi-site manufacturing operations."
+    },
+    "performance": {
+      "title": "High Performance",
+      "text": "Optimized for the speed and reliability that production environments demand."
+    }
+  },
+  "solutions": {
+    "title": "Our Solutions",
+    "subtitle": "An enterprise software product family focused on manufacturing. Our first product, KORWAQ Solution Partner, is currently under development.",
+    "view_all": "View All Solutions"
+  },
+  "status": {
+    "development": "Under Development",
+    "coming_soon": "Coming Soon"
+  },
+  "products": {
+    "solution_partner": {
+      "name": "KORWAQ Solution Partner",
+      "desc": "Enterprise software that unifies production planning, inventory management and business operations on a single platform.",
+      "desc_long": "KORWAQ Solution Partner is enterprise software designed for manufacturing companies. It unifies production planning, inventory management, procurement, sales and financial operations on a single platform. As our first product, it is actively under development.",
+      "f1": "Production planning and tracking",
+      "f2": "Inventory and stock management",
+      "f3": "Business operations and reporting"
+    },
+    "mes": {
+      "desc": "Software for monitoring, managing and optimizing shop floor operations.",
+      "desc_long": "Software for real-time monitoring, management and optimization of shop floor operations. Supports production efficiency and quality control processes."
+    },
+    "wms": {
+      "desc": "Management software for warehouse operations, inventory tracking and logistics processes.",
+      "desc_long": "Comprehensive management software for warehouse operations, inventory tracking and logistics processes. Designed to improve warehouse efficiency."
+    },
+    "crm": {
+      "desc": "Software for customer relationships, sales processes and business development operations.",
+      "desc_long": "Enterprise software for customer relationships, sales processes and business development. Tailored to the sales and customer management needs of manufacturing companies."
+    },
+    "hr": {
+      "desc": "Enterprise software for human resources, payroll and employee management processes.",
+      "desc_long": "Enterprise software for human resources, payroll and employee management. Planned to support the HR operations of manufacturing businesses."
+    },
+    "ai": {
+      "desc": "Artificial intelligence capabilities supporting production and operational decision-making.",
+      "desc_long": "Artificial intelligence capabilities supporting production and operational decision-making. To be developed for data-driven insights and intelligent automation."
+    }
+  },
+  "about_preview": {
+    "title": "Building Software for Manufacturing Companies",
+    "text": "KORWAQ is a technology company developing modern enterprise software for manufacturing companies. Our goal is to simplify complex business processes through simple, scalable and intuitive software. We are actively working on our first product, KORWAQ Solution Partner.",
+    "cta": "About Us"
+  },
+  "values": {
+    "modern": "Modern",
+    "professional": "Professional",
+    "reliable": "Reliable",
+    "innovative": "Innovative"
+  },
+  "updates": {
+    "title": "Latest Updates",
+    "subtitle": "News from the KORWAQ Solution Partner development process and insights on manufacturing software.",
+    "view_all": "Go to Blog",
+    "cat_dev": "Development",
+    "cat_partner": "Solution Partner",
+    "cat_digital": "Digital Transformation",
+    "post1": {
+      "title": "KORWAQ Solution Partner Development Has Begun",
+      "excerpt": "We have started the development process for our enterprise software designed for manufacturing companies."
+    },
+    "post2": {
+      "title": "Why Manufacturing-Focused Solution Partners Matter",
+      "excerpt": "The limitations of general-purpose software in manufacturing and the value of industry-specific solution partner platforms."
+    },
+    "post3": {
+      "title": "Getting Started with Digital Transformation in Manufacturing",
+      "excerpt": "A digital transformation roadmap and essential first steps for SMEs and growing manufacturing businesses."
+    }
+  },
+  "cta": {
+    "title": "Move Your Production Operations Forward",
+    "text": "Contact us to learn about KORWAQ Solution Partner or explore collaboration opportunities.",
+    "button": "Contact Us"
+  },
+  "footer": {
+    "tagline": "Enterprise Software",
+    "nav_label": "Footer navigation",
+    "privacy": "Privacy Policy",
+    "linkedin": "LinkedIn",
+    "copyright": "© 2026 KORWAQ. All Rights Reserved."
+  },
+  "about_page": {
+    "title": "About",
+    "subtitle": "We are a technology company developing modern enterprise software for manufacturing companies.",
+    "story": {
+      "title": "Our Story",
+      "text": "KORWAQ was founded after observing how businesses in the manufacturing sector manage complex operational processes. We recognized that general-purpose software does not always meet the needs of production environments. We decided to develop modern enterprise software focused on production planning, inventory management and business operations. Today, we are actively working on our first product, KORWAQ Solution Partner."
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "To simplify business processes for manufacturing companies through modern, scalable and intuitive software. To contribute to the digital transformation of manufacturers at every scale by making technology accessible."
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "To become a trusted and preferred enterprise software platform in the manufacturing sector. To support operational excellence across a wide range — from factories to growing businesses — with the KORWAQ product family."
+    },
+    "values": {
+      "title": "Core Values",
+      "modern": { "title": "Modern", "text": "We build future-ready software with current technologies and design principles." },
+      "professional": { "title": "Professional", "text": "We deliver a consistent and reliable experience at enterprise standards." },
+      "reliable": { "title": "Reliable", "text": "We stand behind our word and communicate honestly without exaggeration." },
+      "minimal": { "title": "Minimal", "text": "We reduce complexity and design simple, understandable solutions." },
+      "innovative": { "title": "Innovative", "text": "We develop next-generation approaches tailored to the needs of the manufacturing sector." },
+      "enterprise": { "title": "Enterprise", "text": "We build scalable, secure and long-term software infrastructure." }
+    }
+  },
+  "solutions_page": {
+    "title": "Solutions",
+    "subtitle": "An enterprise software product family focused on manufacturing. Each product is designed for the real needs of the manufacturing sector.",
+    "products_heading": "Products",
+    "cta_title": "Learn About KORWAQ Solution Partner",
+    "cta_text": "Contact us to learn about our development process or share your feedback."
+  },
+  "blog_page": {
+    "title": "Blog",
+    "subtitle": "Development updates, solution partner insights, manufacturing and digital transformation articles.",
+    "categories": "Categories",
+    "cat_dev": "Development Updates",
+    "cat_partner": "Solution Partner Articles",
+    "cat_manufacturing": "Manufacturing",
+    "cat_digital": "Digital Transformation",
+    "posts": "Articles"
+  },
+  "careers_page": {
+    "title": "Careers",
+    "subtitle": "Do meaningful work at KORWAQ. Join a team building software that transforms the manufacturing sector.",
+    "status_title": "We Are Not Currently Hiring",
+    "status_text": "KORWAQ is not running an active recruitment process at this time. Future openings will be published on this page. If you are interested, you may send your resume to info@korwaq.com.",
+    "future_title": "Future Opportunities",
+    "future_subtitle": "As we grow, we will look for talented professionals in the following areas.",
+    "area_engineering": "Software Engineering",
+    "area_engineering_desc": "Backend, frontend and enterprise software development.",
+    "area_product": "Product Management",
+    "area_product_desc": "Manufacturing-focused product strategy and user experience.",
+    "area_design": "Design",
+    "area_design_desc": "Enterprise interface design and user experience.",
+    "jobs_label": "Open positions",
+    "no_positions": "No open positions.",
+    "cta_title": "Let's Work Together in the Future",
+    "cta_text": "Contact us to learn about KORWAQ or submit your resume."
+  },
+  "contact_page": {
+    "title": "Contact",
+    "subtitle": "Reach out for questions, feedback or collaboration proposals.",
+    "info_title": "Contact Information",
+    "email_label": "Email",
+    "linkedin_label": "LinkedIn",
+    "form_title": "Send a Message",
+    "form_name": "Full Name",
+    "form_name_placeholder": "Your full name",
+    "form_email": "Email",
+    "form_email_placeholder": "you@company.com",
+    "form_company": "Company",
+    "form_company_placeholder": "Company name (optional)",
+    "form_message": "Message",
+    "form_message_placeholder": "Write your message...",
+    "form_submit": "Send",
+    "form_error": "Please fill in all required fields.",
+    "faq_title": "Frequently Asked Questions",
+    "faq1_q": "When will KORWAQ Solution Partner be available?",
+    "faq1_a": "KORWAQ Solution Partner is currently in active development. A launch date has not been set yet. Follow our blog for updates or reach us at info@korwaq.com.",
+    "faq2_q": "Which industries do you serve?",
+    "faq2_a": "Our target customers are manufacturing companies, industrial businesses, factories and growing SMEs. Our software focuses on production and operational processes.",
+    "faq3_q": "Can I request a demo or early information?",
+    "faq3_a": "Yes. You can use the contact form or email info@korwaq.com to learn about the KORWAQ Solution Partner development process or share feedback.",
+    "faq4_q": "Are there career opportunities at KORWAQ?",
+    "faq4_a": "We do not have an active hiring process at this time. Visit our careers page for future opportunities or send your resume to info@korwaq.com."
+  },
+  "privacy_page": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: July 14, 2026",
+    "intro_title": "Introduction",
+    "intro_text": "At KORWAQ, we respect your privacy. This privacy policy explains how information is handled when you visit korwaq.com.",
+    "collect_title": "Information We Collect",
+    "collect_text": "We may collect information you submit through the contact form, such as your name, email address, company name and message content. Language preference and similar data may also be stored in your browser's local storage (localStorage) for the website to function properly.",
+    "use_title": "How We Use Information",
+    "use_text": "We use the information we collect solely to respond to your request, communicate with you and improve our services. We do not sell or rent your information to third parties.",
+    "cookies_title": "Cookies and Local Storage",
+    "cookies_text": "Our website uses your browser's localStorage to remember your language preference. We do not use third-party tracking cookies.",
+    "rights_title": "Your Rights",
+    "rights_text": "To request access, correction or deletion of your personal data, contact us at info@korwaq.com.",
+    "contact_title": "Contact",
+    "contact_text": "For questions about this privacy policy, email info@korwaq.com."
+  },
+  "error_page": {
+    "title": "Page Not Found",
+    "text": "The page you are looking for does not exist or may have been moved.",
+    "home": "Back to Home"
+  },
+  "pages": {
+    "home": {
+      "title": "KORWAQ — Enterprise Software for Modern Manufacturing",
+      "description": "KORWAQ develops modern solution partner and enterprise software for manufacturing companies. Streamline operations, improve productivity and grow with confidence."
+    },
+    "about": {
+      "title": "About — KORWAQ",
+      "description": "KORWAQ is a technology company developing modern enterprise software for manufacturing companies."
+    },
+    "solutions": {
+      "title": "Solutions — KORWAQ",
+      "description": "KORWAQ Solution Partner, MES, WMS, CRM, HR and AI — an enterprise software product family focused on manufacturing."
+    },
+    "blog": {
+      "title": "Blog — KORWAQ",
+      "description": "KORWAQ development updates, solution partner articles, manufacturing and digital transformation insights."
+    },
+    "careers": {
+      "title": "Careers — KORWAQ",
+      "description": "KORWAQ career opportunities. Join a team building software that transforms the manufacturing sector."
+    },
+    "contact": {
+      "title": "Contact — KORWAQ",
+      "description": "Contact KORWAQ. info@korwaq.com"
+    },
+    "privacy": {
+      "title": "Privacy Policy — KORWAQ",
+      "description": "KORWAQ privacy policy."
+    },
+    "404": {
+      "title": "404 — KORWAQ",
+      "description": "Page not found."
+    }
+  }
+}

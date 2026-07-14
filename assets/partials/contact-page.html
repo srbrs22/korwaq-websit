@@ -1,0 +1,80 @@
+<section class="page-hero section" aria-labelledby="page-title">
+  <div class="container">
+    <h1 id="page-title" class="page-hero__title" data-i18n="contact_page.title">İletişim</h1>
+    <p class="page-hero__subtitle" data-i18n="contact_page.subtitle">
+      Sorularınız, geri bildirimleriniz veya iş birliği teklifleriniz için bizimle iletişime geçin.
+    </p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="contact-info-heading">
+  <div class="container contact-grid">
+    <div class="contact-info" data-reveal>
+      <h2 id="contact-info-heading" class="content-block__title" data-i18n="contact_page.info_title">İletişim Bilgileri</h2>
+      <dl class="contact-info__list">
+        <div class="contact-info__item">
+          <dt data-i18n="contact_page.email_label">E-posta</dt>
+          <dd><a href="mailto:info@korwaq.com">info@korwaq.com</a></dd>
+        </div>
+        <div class="contact-info__item">
+          <dt data-i18n="contact_page.linkedin_label">LinkedIn</dt>
+          <dd>
+            <a href="https://www.linkedin.com/company/korwaq" class="btn btn--secondary btn--sm" target="_blank" rel="noopener noreferrer" data-i18n="footer.linkedin">LinkedIn</a>
+          </dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="contact-form-wrapper" data-reveal>
+      <h2 class="content-block__title" data-i18n="contact_page.form_title">Mesaj Gönderin</h2>
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-honeypot" aria-hidden="true">
+          <label for="contact-website">Website</label>
+          <input type="text" id="contact-website" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label for="contact-name" class="form-label" data-i18n="contact_page.form_name">Ad Soyad</label>
+          <input type="text" id="contact-name" name="name" class="form-input" required maxlength="100" autocomplete="name" data-i18n-attr="placeholder:contact_page.form_name_placeholder">
+        </div>
+        <div class="form-group">
+          <label for="contact-email" class="form-label" data-i18n="contact_page.form_email">E-posta</label>
+          <input type="email" id="contact-email" name="email" class="form-input" required maxlength="254" autocomplete="email" data-i18n-attr="placeholder:contact_page.form_email_placeholder">
+        </div>
+        <div class="form-group">
+          <label for="contact-company" class="form-label" data-i18n="contact_page.form_company">Şirket</label>
+          <input type="text" id="contact-company" name="company" class="form-input" maxlength="100" autocomplete="organization" data-i18n-attr="placeholder:contact_page.form_company_placeholder">
+        </div>
+        <div class="form-group">
+          <label for="contact-message" class="form-label" data-i18n="contact_page.form_message">Mesaj</label>
+          <textarea id="contact-message" name="message" class="form-input form-textarea" rows="5" required maxlength="2000" data-i18n-attr="placeholder:contact_page.form_message_placeholder"></textarea>
+        </div>
+        <p class="form-error" id="contact-error" role="alert" hidden data-i18n="contact_page.form_error">Lütfen tüm zorunlu alanları doldurun.</p>
+        <button type="submit" class="btn btn--primary" data-i18n="contact_page.form_submit">Gönder</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section section--surface" aria-labelledby="faq-heading">
+  <div class="container">
+    <h2 id="faq-heading" class="section-header__title" data-i18n="contact_page.faq_title">Sık Sorulan Sorular</h2>
+    <div class="faq-list">
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question" data-i18n="contact_page.faq1_q">KORWAQ Çözüm Ortağı ne zaman kullanıma sunulacak?</summary>
+        <p class="faq-item__answer" data-i18n="contact_page.faq1_a">KORWAQ Çözüm Ortağı şu anda aktif geliştirme aşamasındadır. Lansman tarihi henüz belirlenmemiştir. Güncellemeler için blog sayfamızı takip edebilir veya info@korwaq.com adresinden bize ulaşabilirsiniz.</p>
+      </details>
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question" data-i18n="contact_page.faq2_q">Hangi sektörlere hizmet veriyorsunuz?</summary>
+        <p class="faq-item__answer" data-i18n="contact_page.faq2_a">Üretim şirketleri, endüstriyel işletmeler, fabrikalar ve büyüyen KOBİ'ler hedef müşteri grubumuzdur. Yazılımlarımız üretim ve operasyonel süreçlere odaklanmaktadır.</p>
+      </details>
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question" data-i18n="contact_page.faq3_q">Demo veya ön bilgi talep edebilir miyim?</summary>
+        <p class="faq-item__answer" data-i18n="contact_page.faq3_a">Evet. KORWAQ Çözüm Ortağı geliştirme süreci hakkında bilgi almak veya geri bildirim paylaşmak için iletişim formunu doldurabilir veya info@korwaq.com adresine e-posta gönderebilirsiniz.</p>
+      </details>
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question" data-i18n="contact_page.faq4_q">KORWAQ'ta kariyer fırsatları var mı?</summary>
+        <p class="faq-item__answer" data-i18n="contact_page.faq4_a">Şu anda aktif bir işe alım sürecimiz bulunmuyor. Gelecekteki fırsatlar için kariyer sayfamızı ziyaret edebilir veya özgeçmişinizi info@korwaq.com adresine iletebilirsiniz.</p>
+      </details>
+    </div>
+  </div>
+</section>

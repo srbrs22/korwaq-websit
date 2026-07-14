@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "lang": "tr",
+    "site_name": "KORWAQ",
+    "tagline": "Modern Üretim için Kurumsal Yazılım"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "solutions": "Çözümler",
+    "about": "Hakkımızda",
+    "blog": "Blog",
+    "careers": "Kariyer",
+    "contact": "İletişim"
+  },
+  "lang": {
+    "switch": "Dil",
+    "tr": "Türkçe",
+    "en": "English"
+  },
+  "a11y": {
+    "skip_to_content": "İçeriğe atla",
+    "menu_toggle": "Menüyü aç",
+    "menu_close": "Menüyü kapat",
+    "main_nav": "Ana navigasyon"
+  },
+  "hero": {
+    "badge": "Modern Üretim için Kurumsal Yazılım",
+    "title_line1": "Kurumsal Yazılım",
+    "title_line2": "Modern Üretim İçin Tasarlandı",
+    "subtitle": "KORWAQ, üreticilerin operasyonlarını sadeleştirmesine, verimliliği artırmasına ve güvenle büyümesine yardımcı olan yeni nesil çözüm ortağı ve kurumsal yazılım geliştirir.",
+    "cta_primary": "Çözümleri Keşfedin",
+    "cta_secondary": "İletişime Geçin"
+  },
+  "why": {
+    "title": "Neden KORWAQ?",
+    "subtitle": "Üretim odaklı kurumsal yazılım geliştiriyoruz — sade, ölçeklenebilir ve uzun vadeli düşünülerek tasarlanmış.",
+    "architecture": {
+      "title": "Modern Mimari",
+      "text": "Modüler ve geleceğe hazır bir mimari ile uzun vadeli büyümeye uygun yazılım altyapısı."
+    },
+    "manufacturing": {
+      "title": "Üretim Odaklı",
+      "text": "Üretim planlama, stok yönetimi ve operasyonel süreçler için özel olarak tasarlanmış çözümler."
+    },
+    "security": {
+      "title": "Kurumsal Güvenlik",
+      "text": "Erişim kontrolünden veri korumaya kadar her katmanda güvenlik prensipleri."
+    },
+    "cloud": {
+      "title": "Buluta Hazır",
+      "text": "Operasyonlarınızın gerektirdiği esneklikle bulut altyapısında çalışmaya hazır tasarım."
+    },
+    "scalable": {
+      "title": "Ölçeklenebilir",
+      "text": "Küçük fabrikalardan çok lokasyonlu operasyonlara kadar işletmenizle birlikte büyür."
+    },
+    "performance": {
+      "title": "Yüksek Performans",
+      "text": "Üretim ortamlarının gerektirdiği hız ve güvenilirlik için optimize edilmiş altyapı."
+    }
+  },
+  "solutions": {
+    "title": "Çözümlerimiz",
+    "subtitle": "Üretim odaklı kurumsal yazılım ürün ailesi. İlk ürünümüz KORWAQ Çözüm Ortağı şu an geliştirme aşamasında.",
+    "view_all": "Tüm Çözümleri Görüntüle"
+  },
+  "status": {
+    "development": "Geliştirme Aşamasında",
+    "coming_soon": "Yakında"
+  },
+  "products": {
+    "solution_partner": {
+      "name": "KORWAQ Çözüm Ortağı",
+      "desc": "Üretim planlama, stok yönetimi ve iş operasyonlarını tek platformda birleştiren kurumsal yazılım.",
+      "desc_long": "KORWAQ Çözüm Ortağı, üretim şirketleri için tasarlanmış kurumsal yazılımdır. Üretim planlama, stok yönetimi, satın alma, satış ve finansal operasyonları tek bir platformda birleştirir. İlk ürünümüz olarak aktif geliştirme sürecindeyiz.",
+      "f1": "Üretim planlama ve takip",
+      "f2": "Stok ve envanter yönetimi",
+      "f3": "İş operasyonları ve raporlama"
+    },
+    "mes": {
+      "desc": "Üretim sahası operasyonlarını izleme, yönetme ve optimize etme yazılımı.",
+      "desc_long": "Üretim sahası operasyonlarını gerçek zamanlı izleme, yönetme ve optimize etme yazılımı. Üretim verimliliği ve kalite kontrol süreçlerini destekler."
+    },
+    "wms": {
+      "desc": "Depo operasyonları, envanter takibi ve lojistik süreçleri için yönetim yazılımı.",
+      "desc_long": "Depo operasyonları, envanter takibi ve lojistik süreçleri için kapsamlı yönetim yazılımı. Depo verimliliğini artırmak için tasarlanmaktadır."
+    },
+    "crm": {
+      "desc": "Müşteri ilişkileri, satış süreçleri ve iş geliştirme operasyonları için yazılım.",
+      "desc_long": "Müşteri ilişkileri, satış süreçleri ve iş geliştirme operasyonları için kurumsal yazılım. Üretim şirketlerinin satış ve müşteri yönetimi ihtiyaçlarına yönelik."
+    },
+    "hr": {
+      "desc": "İnsan kaynakları, bordro ve çalışan yönetimi süreçleri için kurumsal yazılım.",
+      "desc_long": "İnsan kaynakları, bordro ve çalışan yönetimi süreçleri için kurumsal yazılım. Üretim işletmelerinin insan kaynağı operasyonlarını desteklemek üzere planlanmaktadır."
+    },
+    "ai": {
+      "desc": "Üretim ve operasyonel karar süreçlerini destekleyen yapay zeka yetenekleri.",
+      "desc_long": "Üretim ve operasyonel karar süreçlerini destekleyen yapay zeka yetenekleri. Veri odaklı içgörüler ve akıllı otomasyon için geliştirilecektir."
+    }
+  },
+  "about_preview": {
+    "title": "Üretim Şirketleri İçin Yazılım Geliştiriyoruz",
+    "text": "KORWAQ, üretim şirketleri için modern kurumsal yazılım geliştiren bir teknoloji şirketidir. Amacımız, karmaşık iş süreçlerini sade, ölçeklenebilir ve sezgisel yazılımlarla kolaylaştırmaktır. İlk ürünümüz KORWAQ Çözüm Ortağı üzerinde aktif olarak çalışıyoruz.",
+    "cta": "Hakkımızda"
+  },
+  "values": {
+    "modern": "Modern",
+    "professional": "Profesyonel",
+    "reliable": "Güvenilir",
+    "innovative": "Yenilikçi"
+  },
+  "updates": {
+    "title": "Son Güncellemeler",
+    "subtitle": "KORWAQ Çözüm Ortağı geliştirme sürecinden haberler ve üretim yazılımı hakkında içgörüler.",
+    "view_all": "Bloga Git",
+    "cat_dev": "Geliştirme",
+    "cat_partner": "Çözüm Ortağı",
+    "cat_digital": "Dijital Dönüşüm",
+    "post1": {
+      "title": "KORWAQ Çözüm Ortağı Geliştirmesi Başladı",
+      "excerpt": "Üretim şirketleri için tasarladığımız kurumsal yazılımın geliştirme sürecine başladık."
+    },
+    "post2": {
+      "title": "Üretim Odaklı Çözüm Ortağı Neden Önemli?",
+      "excerpt": "Genel amaçlı yazılımların üretim sektöründeki sınırlamaları ve sektöre özel çözüm ortağı yazılımının değeri."
+    },
+    "post3": {
+      "title": "Üretimde Dijital Dönüşüme Başlangıç",
+      "excerpt": "KOBİ'ler ve büyüyen üretim işletmeleri için dijital dönüşüm yol haritası ve temel adımlar."
+    }
+  },
+  "cta": {
+    "title": "Üretim Operasyonlarınızı Geleceğe Taşıyın",
+    "text": "KORWAQ Çözüm Ortağı hakkında bilgi almak veya iş birliği fırsatlarını değerlendirmek için bizimle iletişime geçin.",
+    "button": "İletişime Geçin"
+  },
+  "footer": {
+    "tagline": "Kurumsal Yazılım",
+    "nav_label": "Alt bilgi navigasyonu",
+    "privacy": "Gizlilik Politikası",
+    "linkedin": "LinkedIn",
+    "copyright": "© 2026 KORWAQ. Tüm Hakları Saklıdır."
+  },
+  "about_page": {
+    "title": "Hakkımızda",
+    "subtitle": "Üretim şirketleri için modern kurumsal yazılım geliştiren bir teknoloji şirketiyiz.",
+    "story": {
+      "title": "Hikayemiz",
+      "text": "KORWAQ, üretim sektöründeki işletmelerin karmaşık operasyonel süreçlerle nasıl başa çıktığını gözlemleyerek kuruldu. Genel amaçlı yazılımların üretim ortamlarındaki ihtiyaçları her zaman karşılamadığını fark ettik. Bu nedenle, üretim planlama, stok yönetimi ve iş operasyonlarına odaklanan modern kurumsal yazılım geliştirmeye karar verdik. Bugün ilk ürünümüz KORWAQ Çözüm Ortağı üzerinde aktif olarak çalışıyoruz."
+    },
+    "mission": {
+      "title": "Misyon",
+      "text": "Üretim şirketlerinin iş süreçlerini modern, ölçeklenebilir ve sezgisel yazılımlarla sadeleştirmek. Teknolojiyi erişilebilir kılarak her ölçekteki üretici işletmenin dijital dönüşümüne katkı sağlamak."
+    },
+    "vision": {
+      "title": "Vizyon",
+      "text": "Üretim sektöründe güvenilir ve tercih edilen kurumsal yazılım platformu olmak. KORWAQ ürün ailesiyle fabrikalardan büyüyen işletmelere kadar geniş bir yelpazede operasyonel mükemmelliği desteklemek."
+    },
+    "values": {
+      "title": "Temel Değerlerimiz",
+      "modern": { "title": "Modern", "text": "Güncel teknolojiler ve tasarım prensipleriyle geleceğe hazır yazılım geliştiririz." },
+      "professional": { "title": "Profesyonel", "text": "Kurumsal standartlarda, tutarlı ve güvenilir bir deneyim sunarız." },
+      "reliable": { "title": "Güvenilir", "text": "Sözümüzün arkasında durur, abartısız ve dürüst iletişim kurarız." },
+      "minimal": { "title": "Minimal", "text": "Karmaşıklığı azaltır, sade ve anlaşılır çözümler tasarlarız." },
+      "innovative": { "title": "Yenilikçi", "text": "Üretim sektörünün ihtiyaçlarına özel, yeni nesil yaklaşımlar geliştiririz." },
+      "enterprise": { "title": "Kurumsal", "text": "Ölçeklenebilir, güvenli ve uzun vadeli düşünülmüş yazılım altyapısı inşa ederiz." }
+    }
+  },
+  "solutions_page": {
+    "title": "Çözümler",
+    "subtitle": "Üretim odaklı kurumsal yazılım ürün ailesi. Her ürün, üretim sektörünün gerçek ihtiyaçları için tasarlanmaktadır.",
+    "products_heading": "Ürünler",
+    "cta_title": "KORWAQ Çözüm Ortağı Hakkında Bilgi Alın",
+    "cta_text": "Geliştirme sürecimiz hakkında bilgi almak veya geri bildirim paylaşmak için bizimle iletişime geçin."
+  },
+  "blog_page": {
+    "title": "Blog",
+    "subtitle": "Geliştirme güncellemeleri, çözüm ortağı içgörüleri, üretim ve dijital dönüşüm hakkında yazılar.",
+    "categories": "Kategoriler",
+    "cat_dev": "Geliştirme Güncellemeleri",
+    "cat_partner": "Çözüm Ortağı Yazıları",
+    "cat_manufacturing": "Üretim",
+    "cat_digital": "Dijital Dönüşüm",
+    "posts": "Yazılar"
+  },
+  "careers_page": {
+    "title": "Kariyer",
+    "subtitle": "KORWAQ'ta anlamlı işler yapın. Üretim sektörünü dönüştüren yazılımlar geliştiren bir ekibe katılın.",
+    "status_title": "Şu An İşe Alım Yapmıyoruz",
+    "status_text": "KORWAQ şu anda aktif bir işe alım süreci yürütmüyor. Gelecekte açılacak pozisyonlar bu sayfada yayınlanacaktır. İlgileniyorsanız özgeçmişinizi info@korwaq.com adresine gönderebilirsiniz.",
+    "future_title": "Gelecekteki Fırsatlar",
+    "future_subtitle": "Büyüdükçe aşağıdaki alanlarda yetenekli profesyoneller arayacağız.",
+    "area_engineering": "Yazılım Mühendisliği",
+    "area_engineering_desc": "Backend, frontend ve kurumsal yazılım geliştirme.",
+    "area_product": "Ürün Yönetimi",
+    "area_product_desc": "Üretim odaklı ürün stratejisi ve kullanıcı deneyimi.",
+    "area_design": "Tasarım",
+    "area_design_desc": "Kurumsal arayüz tasarımı ve kullanıcı deneyimi.",
+    "jobs_label": "Açık pozisyonlar",
+    "no_positions": "Açık pozisyon bulunmuyor.",
+    "cta_title": "Gelecekte Birlikte Çalışalım",
+    "cta_text": "KORWAQ hakkında bilgi almak veya özgeçmişinizi iletmek için bizimle iletişime geçin."
+  },
+  "contact_page": {
+    "title": "İletişim",
+    "subtitle": "Sorularınız, geri bildirimleriniz veya iş birliği teklifleriniz için bizimle iletişime geçin.",
+    "info_title": "İletişim Bilgileri",
+    "email_label": "E-posta",
+    "linkedin_label": "LinkedIn",
+    "form_title": "Mesaj Gönderin",
+    "form_name": "Ad Soyad",
+    "form_name_placeholder": "Adınız ve soyadınız",
+    "form_email": "E-posta",
+    "form_email_placeholder": "ornek@sirket.com",
+    "form_company": "Şirket",
+    "form_company_placeholder": "Şirket adı (isteğe bağlı)",
+    "form_message": "Mesaj",
+    "form_message_placeholder": "Mesajınızı yazın...",
+    "form_submit": "Gönder",
+    "form_error": "Lütfen tüm zorunlu alanları doldurun.",
+    "faq_title": "Sık Sorulan Sorular",
+    "faq1_q": "KORWAQ Çözüm Ortağı ne zaman kullanıma sunulacak?",
+    "faq1_a": "KORWAQ Çözüm Ortağı şu anda aktif geliştirme aşamasındadır. Lansman tarihi henüz belirlenmemiştir. Güncellemeler için blog sayfamızı takip edebilir veya info@korwaq.com adresinden bize ulaşabilirsiniz.",
+    "faq2_q": "Hangi sektörlere hizmet veriyorsunuz?",
+    "faq2_a": "Üretim şirketleri, endüstriyel işletmeler, fabrikalar ve büyüyen KOBİ'ler hedef müşteri grubumuzdur. Yazılımlarımız üretim ve operasyonel süreçlere odaklanmaktadır.",
+    "faq3_q": "Demo veya ön bilgi talep edebilir miyim?",
+    "faq3_a": "Evet. KORWAQ Çözüm Ortağı geliştirme süreci hakkında bilgi almak veya geri bildirim paylaşmak için iletişim formunu doldurabilir veya info@korwaq.com adresine e-posta gönderebilirsiniz.",
+    "faq4_q": "KORWAQ'ta kariyer fırsatları var mı?",
+    "faq4_a": "Şu anda aktif bir işe alım sürecimiz bulunmuyor. Gelecekteki fırsatlar için kariyer sayfamızı ziyaret edebilir veya özgeçmişinizi info@korwaq.com adresine iletebilirsiniz."
+  },
+  "privacy_page": {
+    "title": "Gizlilik Politikası",
+    "updated": "Son güncelleme: 14 Temmuz 2026",
+    "intro_title": "Giriş",
+    "intro_text": "KORWAQ olarak gizliliğinize saygı duyuyoruz. Bu gizlilik politikası, korwaq.com web sitesini ziyaret ettiğinizde toplanan bilgilerin nasıl işlendiğini açıklar.",
+    "collect_title": "Toplanan Bilgiler",
+    "collect_text": "İletişim formu aracılığıyla gönderdiğiniz ad, e-posta adresi, şirket adı ve mesaj içeriği gibi bilgileri toplayabiliriz. Ayrıca web sitesinin düzgün çalışması için dil tercihi gibi bilgiler tarayıcınızın yerel depolama alanında (localStorage) saklanabilir.",
+    "use_title": "Bilgilerin Kullanımı",
+    "use_text": "Topladığımız bilgileri yalnızca talebinize yanıt vermek, iletişim kurmak ve hizmetlerimizi geliştirmek amacıyla kullanırız. Bilgilerinizi üçüncü taraflara satmayız veya kiralamayız.",
+    "cookies_title": "Çerezler ve Yerel Depolama",
+    "cookies_text": "Web sitemiz, dil tercihinizi hatırlamak için tarayıcınızın localStorage özelliğini kullanır. Takip amaçlı üçüncü taraf çerezleri kullanmıyoruz.",
+    "rights_title": "Haklarınız",
+    "rights_text": "Kişisel verilerinize erişim, düzeltme veya silme talebinde bulunmak için info@korwaq.com adresinden bizimle iletişime geçebilirsiniz.",
+    "contact_title": "İletişim",
+    "contact_text": "Gizlilik politikamız hakkında sorularınız için info@korwaq.com adresine e-posta gönderebilirsiniz."
+  },
+  "error_page": {
+    "title": "Sayfa Bulunamadı",
+    "text": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "home": "Ana Sayfaya Dön"
+  },
+  "pages": {
+    "home": {
+      "title": "KORWAQ — Modern Üretim için Kurumsal Yazılım",
+      "description": "KORWAQ, üretim şirketleri için modern çözüm ortağı ve kurumsal yazılım geliştirir. Operasyonları sadeleştirin, verimliliği artırın."
+    },
+    "about": {
+      "title": "Hakkımızda — KORWAQ",
+      "description": "KORWAQ, üretim şirketleri için modern kurumsal yazılım geliştiren bir teknoloji şirketidir."
+    },
+    "solutions": {
+      "title": "Çözümler — KORWAQ",
+      "description": "KORWAQ Çözüm Ortağı, MES, WMS, CRM, HR ve AI — üretim odaklı kurumsal yazılım ürün ailesi."
+    },
+    "blog": {
+      "title": "Blog — KORWAQ",
+      "description": "KORWAQ geliştirme güncellemeleri, çözüm ortağı yazıları, üretim ve dijital dönüşüm içgörüleri."
+    },
+    "careers": {
+      "title": "Kariyer — KORWAQ",
+      "description": "KORWAQ kariyer fırsatları. Üretim sektörünü dönüştüren yazılımlar geliştiren ekibe katılın."
+    },
+    "contact": {
+      "title": "İletişim — KORWAQ",
+      "description": "KORWAQ ile iletişime geçin. info@korwaq.com"
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası — KORWAQ",
+      "description": "KORWAQ gizlilik politikası."
+    },
+    "404": {
+      "title": "404 — KORWAQ",
+      "description": "Sayfa bulunamadı."
+    }
+  }
+}

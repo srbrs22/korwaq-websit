@@ -1,0 +1,10 @@
+/* ==========================================================================
+   KORWAQ — Main Stylesheet
+   Import order matters: base → layout → components → animations → responsive
+   ========================================================================== */
+
+@import url("base.css");
+@import url("layout.css");
+@import url("components.css");
+@import url("animations.css");
+@import url("responsive.css");

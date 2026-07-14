@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Animations — Lightweight, CSS-first
+   ========================================================================== */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-0.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fade-in 600ms ease forwards;
+}
+
+.hero__badge { animation-delay: 100ms; }
+.hero__title { animation-delay: 200ms; }
+.hero__subtitle { animation-delay: 300ms; }
+.hero__actions { animation-delay: 400ms; }
+.hero__visual { animation-delay: 500ms; }
+
+/* Scroll reveal */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition:
+    opacity 600ms ease,
+    transform 600ms ease;
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-slide-down {
+  animation: slide-down var(--transition-base) ease forwards;
+}
